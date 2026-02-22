@@ -1,0 +1,25 @@
+# API keys ve gizli bilgiler - ASLA repoya eklemeyin
+.env
+.env.local
+*.key
+*credentials*
+
+# Langflow yerel verileri (isteğe bağlı)
+.langflow/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Büyük PDF'leri hariç tutmak isterseniz açın:
+# *.pdf
