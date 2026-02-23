@@ -1,4 +1,4 @@
-# 🍽️ Langflow ile RAG Tabanlı Restoran S&S Uygulaması
+#  Langflow ile RAG Tabanlı Restoran S&S Uygulaması
 
 Langflow kullanılarak **kod yazmadan**, görsel node'larla oluşturulmuş **Retrieval-Augmented Generation (RAG)** tabanlı restoran soru-cevap chatbot'u.
 
@@ -154,3 +154,4 @@ Langflow'da her aşağıdaki değeri ilgili node'a **Credential** veya **Variabl
 - [Langflow GitHub](https://github.com/langflow-ai/langflow)
 - [DataStax Astra DB](https://dtsx.io/3vZk6n2)
 - [OpenAI API Keys](https://platform.openai.com/api-keys)
+
