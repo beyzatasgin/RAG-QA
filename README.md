@@ -22,10 +22,10 @@ Bu uygulama, bir restoran PDF dokümanındaki (çalışma saatleri, konum, ödem
 
 **Temel özellikler:**
 
-- 📄 PDF tabanlı bilgi kaynağı (Restoran S&S dokümanı)
-- 🔍 Anlamsal arama ile ilgili içeriği otomatik bulma (RAG)
-- 💬 Kullanıcıya özel konuşma geçmişi (Session ID ile)
-- 🧩 Tamamen görsel, kodsuz Langflow akışı
+-  PDF tabanlı bilgi kaynağı (Restoran S&S dokümanı)
+-  Anlamsal arama ile ilgili içeriği otomatik bulma (RAG)
+-  Kullanıcıya özel konuşma geçmişi (Session ID ile)
+-  Tamamen görsel, kodsuz Langflow akışı
 
 **Kullanılan teknolojiler:** Langflow · OpenAI (GPT-4o-mini + Embeddings) · DataStax Astra DB (Vector Store)
 
@@ -135,7 +135,7 @@ Langflow'da her aşağıdaki değeri ilgili node'a **Credential** veya **Variabl
 - "What payment methods do you accept?"
 <img width="924" height="367" alt="image" src="https://github.com/user-attachments/assets/d6a36ef2-a25e-4c72-ac9b-5f10851f4933" />
 
-> 💡 İlk soru bazen gecikmeli yanıt verebilir; vector store ilk kez doldurulurken bu normaldir. İkinci sorudan itibaren RAG tam olarak çalışır.
+>  İlk soru bazen gecikmeli yanıt verebilir; vector store ilk kez doldurulurken bu normaldir. İkinci sorudan itibaren RAG tam olarak çalışır.
 
 ---
 
@@ -156,5 +156,6 @@ Langflow'da her aşağıdaki değeri ilgili node'a **Credential** veya **Variabl
 - [Langflow GitHub](https://github.com/langflow-ai/langflow)
 - [DataStax Astra DB](https://dtsx.io/3vZk6n2)
 - [OpenAI API Keys](https://platform.openai.com/api-keys)
+
 
 
